@@ -1,4 +1,4 @@
-i = 0;
+/*i = 0;
 while(i < 101){if(i == 0){FizzBuzz = 3;}
     else{if (i % 3 == 0 && i % 5 == 0){FizzBuzz = 0;i++;}
         else{if(i % 3 == 0){FizzBuzz = 1;i++;}
@@ -8,4 +8,13 @@ while(i < 101){if(i == 0){FizzBuzz = 3;}
         case 0:console.log('FizzBuzz');break;
         case 1:console.log('Fizz');break;
         case 2:console.log('Buzz');break;
-        default:console.log(i);i++;}}
+        default:console.log(i);i++;}}*/
+for(i = 1; i < 101; i++){
+    if (i % 3 == 0 && i % 5 == 0){
+        console.log('FizzBuzz')}
+    else{
+        if(i % 3 == 0){console.log('Fizz')}
+        if(i % 5 == 0){console.log('Buzz')}
+        else{console.log(i)}
+    }
+}
